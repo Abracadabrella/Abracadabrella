@@ -1,6 +1,8 @@
 <div align="center">
 
-# Abracadabrella
+<img src="./assets/banner.svg" width="100%" alt="Abracadabrella Security Profile">
+
+<br>
 
 ### Security Researcher · CTF Player · Builder
 
