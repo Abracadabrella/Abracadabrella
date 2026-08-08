@@ -1,0 +1,96 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070b12"/>
+      <stop offset="55%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#07121c"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#39d0ff"/>
+    </linearGradient>
+
+    <pattern id="grid" width="30" height="30"
+             patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30"
+            fill="none"
+            stroke="#1b2635"
+            stroke-width="1"
+            opacity="0.32"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="320" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="18" fill="url(#grid)"/>
+
+  <!-- Border -->
+  <rect x="1" y="1" width="1198" height="318"
+        rx="18"
+        fill="none"
+        stroke="#30363d"
+        stroke-width="2"/>
+
+  <!-- Terminal buttons -->
+  <circle cx="42" cy="38" r="7" fill="#ff5f56"/>
+  <circle cx="66" cy="38" r="7" fill="#ffbd2e"/>
+  <circle cx="90" cy="38" r="7" fill="#27c93f"/>
+
+  <!-- Terminal title -->
+  <text x="120" y="44"
+        fill="#8b949e"
+        font-family="monospace"
+        font-size="16">
+    root@abracadabrella: ~/security
+  </text>
+
+  <!-- Main title -->
+  <text x="70" y="135"
+        fill="#f0f6fc"
+        font-family="monospace"
+        font-size="52"
+        font-weight="700">
+    ABRACADABRELLA
+  </text>
+
+  <!-- Accent -->
+  <rect x="72" y="154" width="570" height="4"
+        rx="2"
+        fill="url(#accent)"/>
+
+  <text x="72" y="194"
+        fill="#8b949e"
+        font-family="monospace"
+        font-size="20">
+    SECURITY RESEARCH · CTF · REVERSE ENGINEERING
+  </text>
+
+  <!-- Terminal prompt -->
+  <text x="72" y="250"
+        fill="#39d0ff"
+        font-family="monospace"
+        font-size="18">
+    $
+  </text>
+
+  <text x="98" y="250"
+        fill="#c9d1d9"
+        font-family="monospace"
+        font-size="18">
+    ./explore --break --understand --learn
+  </text>
+
+  <!-- Status -->
+  <circle cx="975" cy="247" r="6" fill="#3fb950"/>
+
+  <text x="992" y="253"
+        fill="#8b949e"
+        font-family="monospace"
+        font-size="15">
+    SYSTEM ONLINE
+  </text>
+
+</svg>
