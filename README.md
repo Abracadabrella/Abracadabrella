@@ -1,6 +1,6 @@
 <div align="center">
 
-# `Abracadabrella`
+# Abracadabrella
 
 ### Security Researcher · CTF Player · Builder
 
@@ -35,6 +35,47 @@ Most of my time is spent learning security through CTF challenges,
 reverse engineering, cryptography, web security, and building tools
 to automate repetitive analysis.
 
+
+## `$ current_focus`
+
+```yaml
+main:
+  - Capture The Flag
+  - Reverse Engineering
+  - Cryptography
+
+exploring:
+  - Web Security
+  - Digital Forensics
+  - Binary Exploitation
+
+building:
+  - Security Tools
+  - Automation
+  - CTF Utilities
+```
+
+
+## `$ toolbox`
+
 ```text
-root@Abracadabrella:~# _
+Languages
+├── Python
+├── C / C++
+├── Rust
+├── JavaScript
+└── Bash
+
+Reverse Engineering
+├── Ghidra
+├── GDB
+├── JADX
+├── objdump
+└── strings
+
+Security
+├── Burp Suite
+├── Wireshark
+├── CyberChef
+└── Linux
 ```
