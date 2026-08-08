@@ -31,7 +31,7 @@ RaSaWi
 
 <img src="./assets/divider.svg" width="100%" alt="">
 
-## `$ about`
+<img src="./assets/section-about.svg" width="100%" alt="About section">
 
 I explore systems by taking them apart and understanding the assumptions
 that make them work.
@@ -47,7 +47,7 @@ root@Abracadabrella:~# curiosity --never-stop
 
 <img src="./assets/divider.svg" width="100%" alt="">
 
-## `$ current_focus`
+<img src="./assets/section-about.svg" width="100%" alt="About section">
 
 ```yaml
 main:
@@ -68,7 +68,7 @@ building:
 
 <img src="./assets/divider.svg" width="100%" alt="">
 
-## `$ toolbox`
+<img src="./assets/section-about.svg" width="100%" alt="About section">
 
 ```text
 Languages
