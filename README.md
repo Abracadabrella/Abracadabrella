@@ -41,7 +41,9 @@ I also build small tools to automate the boring parts.
 
 ```text
 root@Abracadabrella:~# curiosity --never-stop
+```
 
+---
 
 ## `$ current_focus`
 
@@ -62,6 +64,7 @@ building:
   - CTF Utilities
 ```
 
+---
 
 ## `$ toolbox`
 
