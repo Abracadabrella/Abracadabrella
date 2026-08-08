@@ -29,6 +29,8 @@ RaSaWi
 [+] Security Tool Development
 ```
 
+<img src="./assets/divider.svg" width="100%" alt="">
+
 ## `$ about`
 
 I explore systems by taking them apart and understanding the assumptions
@@ -43,7 +45,7 @@ I also build small tools to automate the boring parts.
 root@Abracadabrella:~# curiosity --never-stop
 ```
 
----
+<img src="./assets/divider.svg" width="100%" alt="">
 
 ## `$ current_focus`
 
@@ -64,7 +66,7 @@ building:
   - CTF Utilities
 ```
 
----
+<img src="./assets/divider.svg" width="100%" alt="">
 
 ## `$ toolbox`
 
