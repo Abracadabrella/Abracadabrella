@@ -6,6 +6,7 @@
   <img src="./assets/banner-dark.svg" width="100%" alt="Abracadabrella Security Profile">
 </picture>
 
+<br>
 
 ### Security Researcher · CTF Player · Builder
 
@@ -13,7 +14,7 @@
 
 </div>
 
----
+<br>
 
 ```text
 ┌──(Abracadabrella㉿github)-[~]
@@ -34,13 +35,11 @@ RaSaWi
 
 <img src="./assets/divider.svg" width="100%" alt="">
 
-<img src="./assets/section-about.svg" width="100%" alt="About section">
+<img src="./assets/section-about.svg" width="100%" alt="About">
 
-I explore systems by taking them apart and understanding the assumptions
-that make them work.
+I explore systems by taking them apart and understanding the assumptions that make them work.
 
-My current playground is CTF — especially reverse engineering,
-cryptography, web security, and digital forensics.
+My current playground is CTF — especially reverse engineering, cryptography, web security, and digital forensics.
 
 I also build small tools to automate the boring parts.
 
@@ -50,7 +49,7 @@ root@Abracadabrella:~# curiosity --never-stop
 
 <img src="./assets/divider.svg" width="100%" alt="">
 
-<img src="./assets/section-about.svg" width="100%" alt="About section">
+<img src="./assets/section-focus.svg" width="100%" alt="Current Focus">
 
 ```yaml
 main:
@@ -71,7 +70,7 @@ building:
 
 <img src="./assets/divider.svg" width="100%" alt="">
 
-<img src="./assets/section-about.svg" width="100%" alt="About section">
+<img src="./assets/section-toolbox.svg" width="100%" alt="Toolbox">
 
 ```text
 Languages
@@ -94,3 +93,7 @@ Security
 ├── CyberChef
 └── Linux
 ```
+
+<br>
+
+<img src="./assets/footer.svg" width="100%" alt="Abracadabrella Footer">
