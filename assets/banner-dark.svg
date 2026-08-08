@@ -1,1 +1,179 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320"
+     xmlns="http://www.w3.org/2000/svg">
 
+  <defs>
+
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070b12"/>
+      <stop offset="55%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#07131d"/>
+    </linearGradient>
+
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="100%" stop-color="#39d0ff"/>
+    </linearGradient>
+
+    <linearGradient id="fadeLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#58a6ff"/>
+      <stop offset="70%" stop-color="#39d0ff"/>
+      <stop offset="100%" stop-color="#39d0ff" stop-opacity="0"/>
+    </linearGradient>
+
+    <pattern id="grid" width="30" height="30"
+             patternUnits="userSpaceOnUse">
+      <path d="M 30 0 L 0 0 0 30"
+            fill="none"
+            stroke="#1b2635"
+            stroke-width="1"
+            opacity="0.32"/>
+    </pattern>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+
+  <rect width="1200"
+        height="320"
+        rx="20"
+        fill="url(#background)"/>
+
+  <rect width="1200"
+        height="320"
+        rx="20"
+        fill="url(#grid)"/>
+
+  <rect x="1"
+        y="1"
+        width="1198"
+        height="318"
+        rx="19"
+        fill="none"
+        stroke="#30363d"
+        stroke-width="2"/>
+
+  <!-- Window buttons -->
+
+  <circle cx="42"
+          cy="38"
+          r="7"
+          fill="#ff5f56"/>
+
+  <circle cx="66"
+          cy="38"
+          r="7"
+          fill="#ffbd2e"/>
+
+  <circle cx="90"
+          cy="38"
+          r="7"
+          fill="#27c93f"/>
+
+  <!-- Terminal path -->
+
+  <text x="120"
+        y="44"
+        fill="#8b949e"
+        font-family="monospace"
+        font-size="16">
+    root@abracadabrella: ~/security
+  </text>
+
+  <!-- Tiny corner identifier -->
+
+  <text x="1065"
+        y="44"
+        fill="#484f58"
+        font-family="monospace"
+        font-size="12">
+    NODE // 01
+  </text>
+
+  <!-- Main title -->
+
+  <text x="70"
+        y="136"
+        fill="#f0f6fc"
+        font-family="monospace"
+        font-size="52"
+        font-weight="700"
+        letter-spacing="1">
+    ABRACADABRELLA
+  </text>
+
+  <rect x="72"
+        y="154"
+        width="585"
+        height="4"
+        rx="2"
+        fill="url(#accent)"
+        filter="url(#glow)"/>
+
+  <!-- Subtitle -->
+
+  <text x="72"
+        y="196"
+        fill="#8b949e"
+        font-family="monospace"
+        font-size="20">
+    SECURITY RESEARCH · CTF · REVERSE ENGINEERING
+  </text>
+
+  <!-- Prompt -->
+
+  <text x="72"
+        y="252"
+        fill="#39d0ff"
+        font-family="monospace"
+        font-size="18">
+    $
+  </text>
+
+  <text x="98"
+        y="252"
+        fill="#c9d1d9"
+        font-family="monospace"
+        font-size="18">
+    ./explore --break --understand --learn
+  </text>
+
+  <!-- Right status -->
+
+  <line x1="900"
+        y1="252"
+        x2="965"
+        y2="252"
+        stroke="url(#fadeLine)"
+        stroke-width="1"/>
+
+  <circle cx="990"
+          cy="247"
+          r="6"
+          fill="#3fb950"
+          filter="url(#glow)"/>
+
+  <text x="1007"
+        y="253"
+        fill="#8b949e"
+        font-family="monospace"
+        font-size="15">
+    SYSTEM ONLINE
+  </text>
+
+  <!-- Bottom micro data -->
+
+  <text x="72"
+        y="296"
+        fill="#30363d"
+        font-family="monospace"
+        font-size="11">
+    SYS::RESEARCH / MODE::ACTIVE / USER::RASAWI
+  </text>
+
+</svg>
