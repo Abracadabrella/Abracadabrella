@@ -6,7 +6,6 @@
   <img src="./assets/banner-dark.svg" width="100%" alt="Abracadabrella Security Profile">
 </picture>
 
-<br>
 
 ### Security Researcher · CTF Player · Builder
 
