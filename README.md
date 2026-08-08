@@ -31,11 +31,16 @@ RaSaWi
 
 ## `$ about`
 
-I like understanding how systems work beneath the surface.
+I explore systems by taking them apart and understanding the assumptions
+that make them work.
 
-Most of my time is spent learning security through CTF challenges,
-reverse engineering, cryptography, web security, and building tools
-to automate repetitive analysis.
+My current playground is CTF — especially reverse engineering,
+cryptography, web security, and digital forensics.
+
+I also build small tools to automate the boring parts.
+
+```text
+root@Abracadabrella:~# curiosity --never-stop
 
 
 ## `$ current_focus`
