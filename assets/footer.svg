@@ -1,0 +1,61 @@
+<svg width="1200" height="105" viewBox="0 0 1200 105"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+
+      <stop offset="0%"
+            stop-color="#58a6ff"
+            stop-opacity="0"/>
+
+      <stop offset="30%"
+            stop-color="#58a6ff"/>
+
+      <stop offset="70%"
+            stop-color="#39d0ff"/>
+
+      <stop offset="100%"
+            stop-color="#39d0ff"
+            stop-opacity="0"/>
+
+    </linearGradient>
+
+  </defs>
+
+  <line x1="80"
+        y1="25"
+        x2="1120"
+        y2="25"
+        stroke="url(#line)"
+        stroke-width="1"/>
+
+  <text x="600"
+        y="58"
+        text-anchor="middle"
+        fill="#8b949e"
+        font-family="monospace"
+        font-size="15">
+    root@abracadabrella:~# exit
+  </text>
+
+  <text x="600"
+        y="84"
+        text-anchor="middle"
+        fill="#484f58"
+        font-family="monospace"
+        font-size="12">
+    session closed // curiosity remains
+  </text>
+
+  <circle cx="492"
+          cy="80"
+          r="3"
+          fill="#39d0ff"/>
+
+  <circle cx="708"
+          cy="80"
+          r="3"
+          fill="#39d0ff"/>
+
+</svg>
