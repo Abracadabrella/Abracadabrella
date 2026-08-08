@@ -1,16 +1,40 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**Abracadabrella/Abracadabrella** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# `Abracadabrella`
 
-Here are some ideas to get you started:
+### Security Researcher · CTF Player · Builder
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+`Reverse Engineering` · `Cryptography` · `Web Security` · `Digital Forensics`
+
+</div>
+
+---
+
+```text
+┌──(Abracadabrella㉿github)-[~]
+└─$ whoami
+
+RaSaWi
+
+┌──(Abracadabrella㉿github)-[~]
+└─$ cat focus.txt
+
+[+] Capture The Flag
+[+] Reverse Engineering
+[+] Cryptography
+[+] Web Security
+[+] Digital Forensics
+[+] Security Tool Development
+```
+
+## `$ about`
+
+I like understanding how systems work beneath the surface.
+
+Most of my time is spent learning security through CTF challenges,
+reverse engineering, cryptography, web security, and building tools
+to automate repetitive analysis.
+
+```text
+root@Abracadabrella:~# _
+```
